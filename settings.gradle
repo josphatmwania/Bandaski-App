@@ -14,3 +14,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Bandaski-App"
 include ':app'
+include ':data'
+include ':domain'
+include ':presentation'
+include ':buildsrc'
