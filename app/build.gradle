@@ -50,6 +50,13 @@ android {
 }
 
 dependencies {
+
+    implementation(project(":data"))
+    implementation(project(":domain"))
+    implementation(project(":common"))
+    implementation(project(":presentation"))
+
+
     def room_version = "2.5.1"
     def nav_version = "2.5.3"
 
